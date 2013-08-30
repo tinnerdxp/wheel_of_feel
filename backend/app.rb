@@ -10,9 +10,9 @@ require 'json'
 class WheelOfFeel < Sinatra::Base
 
   configure do
-    set :bind, '10.215.91.204'
-    set :port, 80
-    @@results = {} 
+    set :bind, '10.215.92.52'
+    set :port, 90
+    @@results = {}
     @@current_act = ''
     @@current_phase = ''
     @@current_act_description = ''

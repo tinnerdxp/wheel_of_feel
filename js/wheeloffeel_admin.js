@@ -3,8 +3,8 @@
 var WOF = function() {
     var client = {
         endpoints: {
-            liveresults: 'http://10.215.91.204/liveresults',
-            editorial:   'http://10.215.91.204/editorial',
+            liveresults: 'http://10.215.92.52:90/liveresults',
+            editorial:   'http://10.215.92.52:90/editorial'
         },
         sendRequest: function(endpoint, method, payload, callback) {
             if (callback === undefined) {

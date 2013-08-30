@@ -3,10 +3,10 @@
 var WOF = function() {
     var client = {
         endpoints: {
-            liveresults: 'http://10.215.91.204/liveresults',
-            vote:        'http://10.215.91.204/vote',
-            current:     'http://10.215.91.204/act',
-            stats:       'http://10.215.91.204/acts'
+            liveresults: 'http://10.215.92.52:90/liveresults',
+            vote:        'http://10.215.92.52:90/vote',
+            current:     'http://10.215.92.52:90/act',
+            stats:       'http://10.215.92.52:90/acts'
         },
         getResults: function(callback) {
             var currentAct = false;
